@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background-color:#d0c1ba;
+    color: white;
+    margin: 0;
+}
+
+.pro{
+   border-radius: 67% 33% 22% 78% / 26% 48% 52% 74% ;
+   border: 5px solid whitesmoke;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+.main{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+h1,h2,h3,p{
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+.year{
+    background-color: #6B677A;
+    padding: 5px 4px 5px 4px;
+    border-radius: 3px;
+    
+}
+
+.date{
+    background-color:#6B677A;
+    padding: 5px 4px 5px 4px;
+    border-radius: 3px;
+    margin: 0;
+
+}
+
+.hover-img{
+    width: 400px;
+    height: 400px;
+    border: 3px solid whitesmoke;
+    background-image: url(./images/gift-cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.nd{
+    margin: 50px 0 50px 0 ;
+}
+
+.hover-img:hover{
+    background-image: url(./images/happy.gif);
+}
+
+
+.hover-img1{
+    width: 400px;
+    height: 400px;
+    border: 3px solid whitesmoke;
+    background-image: url(./images/gift-cover.jpg);
+    background-size: cover;
+    margin: 30px auto 20px auto;
+    border-radius: 10px;
+    
+}
+
+.hover-img1:hover{
+    background-image: url(./images/genius.gif);
+}
+
+
+.footer{
+    width: 210px;
+    margin: 0 auto;
+    
+}
+
